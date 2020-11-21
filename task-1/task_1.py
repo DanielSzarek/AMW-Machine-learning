@@ -22,7 +22,7 @@ print(fifths)
 
 mark_new_task()
 print("Tablica zawierającą liczby od 10 do 50")
-from_10_to_50 = np.arange(10, 50, 1)
+from_10_to_50 = np.arange(10, 51, 1)
 print(from_10_to_50)
 
 mark_new_task()
