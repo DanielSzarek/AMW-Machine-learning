@@ -58,7 +58,7 @@ class WebScrapping:
         soup = BeautifulSoup(html_doc, 'html.parser')
         for link in soup.find_all('a'):
             try:
-                self.ws_links.append([link.get('href').strip()])  # TODO sprawdzić
+                self.ws_links.append([link.get('href').strip()])
             except AttributeError:
                 print(f"Niepoprawny znacznik <a>: {link}")
 

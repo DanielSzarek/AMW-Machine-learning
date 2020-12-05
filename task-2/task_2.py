@@ -60,7 +60,7 @@ cars_query = cars.query(
 )
 print(cars_query)
 
-# 9. Pogrupowane wartości średnie według roku produkcji z wykluczeniem klumny indekks
+# 9. Pogrupowane wartości średnie według roku produkcji z wykluczeniem klumny indeks
 mark_new_task()
 print(cars.drop(columns=["id"]).groupby(["rok_produkcji"]).mean())
 
